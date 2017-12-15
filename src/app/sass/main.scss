@@ -1,0 +1,17 @@
+.vim-editor {
+  background: black;
+  color: lightgreen;
+  font-family: "Lucida Console", Monaco, monospace;
+  width: calc(100vw - 10px);
+  height: calc(100vh - 10px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  border: 1px solid gray;
+  padding: 10px;
+
+  &.commandMode-true {
+    caret-color: salmon;
+  }
+}
